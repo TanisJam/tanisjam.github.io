@@ -35,7 +35,7 @@ main {
 }
 #navbar a:hover {  
   background-color: #FFDEAE;
-  //border-radius: 5px;
+  /*border-radius: 5px;*/
 }
 @media (max-width: 750px) {
   #navbar a {    
@@ -117,7 +117,7 @@ main {
 }
 #contact header{
   display: flex;
-  //flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   justify-content: center;
   align-items: center;
   margin: 2em;
@@ -142,7 +142,7 @@ main {
   align-items: center;
   border-radius: 50%;
   text-decoration: none;
-  //border: solid 2px #4F4537;
+  /*border: solid 2px #4F4537;*/
   background-color: #FFEDCB;
   margin: 2em;
   transition: 0.2s;
