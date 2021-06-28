@@ -1,4 +1,12 @@
-#Portfolio
+# Portfolio Site
  
- My first Portfolio page and also my first GitHub project.
+## Structure
+- Main page.
+    - About me.
+    - Projects.
+    - Contact.
+- Evuca projects.
+    - Project list.
+
+
  
