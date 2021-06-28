@@ -1,3 +1,32 @@
+#hover:hover {
+    transform: rotate(10deg) !important;
+    background-color: brown;
+    overflow: hidden;
+}
+
+
 #projects img {
     border-radius: 1.5rem;
 }
+
+.img-shadow {
+	position: relative;
+	max-width: 100%;
+	float: left;
+	}
+    
+    .img-shadow::before {
+    border-radius: 1.5rem;
+
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		box-shadow: inset 1px 1px 10px 0px rgba(0,0,0,.75);
+	   } 
+	   
+.img-shadow img {
+	float: left;
+	} 
