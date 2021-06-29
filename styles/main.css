@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, #002B36, #25465D, #002B36, #302234);
+	background: linear-gradient(-45deg, #002B36, #25465D, #00806F, #302234);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -33,6 +33,11 @@ header {
 	transform: rotate3d(0, 0.3, -0.3, 2deg);
 }
 
+.bg-semi {
+	background-color: #002b3685;
+	border: none;
+}
+
 .card {
 	transition: .3s;
 }
@@ -64,4 +69,12 @@ header {
 
 .img-shadow img {
 	float: left;
+}
+
+#contact {
+	background-color: #F79334;
+}
+
+footer {
+	box-shadow: 1px 0 15px 1px rgba(0, 0, 0, 0.75);
 }
