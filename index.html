@@ -20,7 +20,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#presentation">LOGO</a>
+                <a class="navbar-brand" href="/">LOGO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -28,8 +28,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#">About me</a>
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="./about_me.html">About me</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                         <a class="nav-link" href="#">E-Vuca</a>
                         <a class="nav-link" href="#">Contact</a>
                     </div>
@@ -40,12 +40,14 @@
 
     <main class="container">
         <section id="presentation" class="mt-3 h-100 p-5 text-dark bg-light border rounded">
-            <h2>Hey, I'm Mauricio.</h2>
-            <p>I'm currently part of the E-Vuca project to train as a full stack web developer.</p>
-            <p>Below I would like to show you some projects that I have been working on in a self-taught way.</p>
+            <h2 id="title" class="display-3">Hey, I'm Mauricio Romero.</h2>
+            <p class="h4">I'm currently part of the E-Vuca project to train as a full stack web developer.</p>
+            <p class="h4">Below I would like to show you some projects that I have been working on in a self-taught way.
+            </p>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="">
+            <h2 class="display-3 mt-4 d-flex justify-content-center bg-dark text-ligth">Projects</h2>
 
             <div class="container mt-1">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2 justify-content-center">
@@ -120,7 +122,7 @@
 
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container d-flex justify-content-center">
-            <span class="text-dark mx-auto">Footer content here.</span>
+            <span class="text-dark mx-auto"><a href="https://github.com/TanisJam" target="_blank">Mauricio Romero</a> © 2021</span>
         </div>
     </footer>
 
